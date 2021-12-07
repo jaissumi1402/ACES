@@ -25,7 +25,7 @@ html{
      margin:0 auto;
 }
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);*/
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -142,14 +142,16 @@ h3{
      color:#fff;
 }
 .logo{
-    height: 100px;
+    height: 120px;
     width: auto;
     float: left;
-    margin-top: 20px;
+    margin-top: 3px;
 }
 .main-nav{
      float: right;
+     color: white;
      list-style:none;
+     
      margin-top: 60px;
 }
 .main-nav li{
@@ -157,8 +159,13 @@ h3{
      margin-left: 40px;
     
 }
+
+/*.main-nav li a link,
+.main-nav li a visited,{
+
 .main-nav li a link,
 .main-nav li a visited{
+
     padding: 8px  0;
     color:#fff;
     text-decoration: none;
@@ -167,9 +174,12 @@ h3{
     border-bottom: 2px solid transparent;
     transition:bordr-bottom 0.2s;
 
+}*/
+.main-nav a{
+    text-decoration: none;
+    color: white;
 }
-.main-nav li a hover,
-.main-nav li a active{
+.main-nav li a:hover{
     border-bottom: 2px solid #e67e22;
 }
 .meal-showcase{
@@ -204,6 +214,9 @@ h3{
 /*---Features---*/
 .section-features .long-copy{
      margin-bottom: 30px;
+}
+.section-features h3{
+    text-align: center;
 }
 /* How its work */
 .section-steps{
@@ -253,13 +266,17 @@ h3{
 .image-city{
      width:110%;
 }
+
+/* .Our-Customers{
+     background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/back-customers.jpg);
+=======
 .Our-Customers{
      background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/14.jpg);
      background-size:cover;
      color:#fff;
     background-attachment: fixed;
      
-}
+} */
 blockquote{
     font-style: italic;
     padding: 2%;
@@ -302,6 +319,118 @@ cite img{
      padding: 15px;
      border-bottom: 1px solid #e8e8e8;
 }
+
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+h1:first-of-type {
+    font-weight: var(--weight1);
+    color: var(--varyDarkBlue);
+
+}
+
+h1:last-of-type {
+    color: var(--varyDarkBlue);
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+.box p {
+    color: var(--grayishBlue);
+}
+
+.box {
+    border-radius: 5px;
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    padding: 30px;
+    margin: 20px;  
+}
+
+img {
+    float: right;
+}
+
+@media (max-width: 450px) {
+    .box {
+        height: 200px;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+    .box {
+        text-align: center;
+        height: 180px;
+    }
+}
+
+.cyan {
+    border-top: 3px solid var(--cyan);
+}
+.red {
+    border-top: 3px solid var(--red);
+}
+.blue {
+    border-top: 3px solid var(--blue);
+}
+.orange {
+    border-top: 3px solid var(--orange);
+}
+
+h2 {
+    color: var(--varyDarkBlue);
+    font-weight: var(--weight3);
+}
+
+
+@media (min-width: 950px) {
+    .row1-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .row2-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-down {
+        position: relative;
+        top: 150px;
+    }
+    .box {
+        width: 20%;
+     
+    }
+    .header p {
+        width: 30%;
+    }
+    
+}
+
+  
+  
+
 #send{
     margin-left: 150px;
     
@@ -309,3 +438,4 @@ cite img{
 #some{
     margin-left: 300px;
 }
+
