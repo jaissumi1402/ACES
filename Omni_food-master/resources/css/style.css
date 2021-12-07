@@ -142,14 +142,16 @@ h3{
      color:#fff;
 }
 .logo{
-    height: 100px;
+    height: 120px;
     width: auto;
     float: left;
-    margin-top: 20px;
+    margin-top: 3px;
 }
 .main-nav{
      float: right;
+     color: white;
      list-style:none;
+     
      margin-top: 60px;
 }
 .main-nav li{
@@ -157,7 +159,7 @@ h3{
      margin-left: 40px;
     
 }
-.main-nav li a link,
+/*.main-nav li a link,
 .main-nav li a visited,{
     padding: 8px  0;
     color:#fff;
@@ -167,9 +169,12 @@ h3{
     border-bottom: 2px solid transparent;
     transition:bordr-bottom 0.2s;
 
+}*/
+.main-nav a{
+    text-decoration: none;
+    color: white;
 }
-.main-nav li a hover,
-.main-nav li a active{
+.main-nav li a:hover{
     border-bottom: 2px solid #e67e22;
 }
 .meal-showcase{
@@ -204,6 +209,9 @@ h3{
 /*---Features---*/
 .section-features .long-copy{
      margin-bottom: 30px;
+}
+.section-features h3{
+    text-align: center;
 }
 /* How its work */
 .section-steps{
@@ -302,3 +310,7 @@ cite img{
      padding: 15px;
      border-bottom: 1px solid #e8e8e8;
 }
+
+
+  
+  
