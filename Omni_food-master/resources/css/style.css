@@ -25,13 +25,14 @@ html{
      margin:0 auto;
 }
 header{
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/14.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
 }
 .hero-text-box{
+
     position: absolute;
     width: 1140px;
     top: 50%;
@@ -39,6 +40,7 @@ header{
     transform: translate(-50%,-50%);
 
 }
+
 section {
       padding:80px 0;
     
@@ -59,6 +61,16 @@ h1{
     font-size:240%; 
     word-spacing:2px;
     letter-spacing: 1px;
+}
+#welcome{
+    color: white;
+    margin-top: 400px;
+}
+#msg{
+    color: white;
+}
+#objective_box{
+    height: 350px;
 }
 h2{
     font-size: 180%;
@@ -146,6 +158,7 @@ h3{
     width: auto;
     float: left;
     margin-top: 3px;
+    
 }
 .main-nav{
      float: right;
@@ -267,16 +280,14 @@ h3{
      width:110%;
 }
 
-/* .Our-Customers{
-     background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/back-customers.jpg);
-=======
+
 .Our-Customers{
-     background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/14.jpg);
+     background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/bsckgroud.jpg);
      background-size:cover;
      color:#fff;
     background-attachment: fixed;
      
-} */
+} 
 blockquote{
     font-style: italic;
     padding: 2%;
